@@ -70,12 +70,14 @@
 
 
 
-let getAllClassH1 = document.querySelectorAll('.class-name h4');
-for(let x of getAllClassH1){
-    x.style.color='blue';
-    x.style.textAlign='center';
-}
+// let getAllClassH1 = document.querySelectorAll('.class-name h4');
+// for(let x of getAllClassH1){
+//     x.style.color='blue';
+//     x.style.textAlign='center';
+// }
 
 
+
+// let addMyClass = document.getElementById('main').style.backgroundColor='yellow';
 
 
