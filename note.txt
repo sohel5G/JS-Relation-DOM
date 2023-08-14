@@ -12,7 +12,7 @@ li.innerHTML
 li.getAttribute('id')
 li.setAttribute('title', 'Hello World')
 
-
+document.getElementsByClassName('lies')[0].innerHTML = '<h1>Hello this text by JavaScript</h1>'
 
 
 

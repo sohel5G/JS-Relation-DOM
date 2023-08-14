@@ -10,7 +10,6 @@
 // }
 
 
-
 // console.log(  document.querySelector('#main li')  );
 // let allLi = document.querySelectorAll('.lies ul li');
 // for( let li of allLi ){
@@ -18,9 +17,19 @@
 // }
 
 
-let getAttr = document.getElementById( 'main' );
-console.log( getAttr.getAttribute('class') );
-console.log( getAttr.setAttribute( 'title', 'Hello World' ) )
+// let getAttr = document.getElementById( 'main' );
+// console.log( getAttr.getAttribute('class') );
+// console.log( getAttr.setAttribute( 'title', 'Hello World' ) )
+// console.log( getAttr.getAttribute('title') );
+
+// console.log(  document.getElementsByClassName('lies')[0].innerHTML = '<h1>Hello this text by JavaScript</h1>'   );
+
+
+
+
+
+
+
 
 
 
