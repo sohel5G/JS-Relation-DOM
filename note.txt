@@ -1,16 +1,17 @@
 console.log( document );
 console.log( document.body );
 
+document.getElementsByTagName();
 document.getElementById();
-document.getElementByClassName()
+document.getElementByClassName();
 
-document.querySelector(#main ul)
-document.querySelectorAll( .css-class )
+document.querySelector(#main ul);
+document.querySelectorAll( .css-class );
 
 li.innerText
 li.innerHTML
-li.getAttribute('id')
-li.setAttribute('title', 'Hello World')
+li.getAttribute('id');
+li.setAttribute('title', 'Hello World');
 
 document.getElementsByClassName('lies')[0].innerHTML = '<h1>Hello this text by JavaScript</h1>'
 
@@ -22,6 +23,41 @@ document.getElementById('main').childNodes[1]
 document.getElementById('main').childNodes[1].nextSibling
 document.getElementById('main').parentNode
 
+
+
+
+ 
+
+
+
+let mainSection = document.getElementById('main-section');
+console.log(mainSection);
+
+let div = document.createElement('div');
+let h2 = document.createElement('h2');
+h2.innerText = 'This is heading 2 add by JavaScript';
+div.appendChild(h2);
+
+let ul = document.createElement('ul');
+let li = document.createElement('li');
+let a  = document.createElement('a');
+a.innerText = 'navigation bar with a tag';
+ul.appendChild(li).appendChild(a);
+div.appendChild(ul);
+
+mainSection.appendChild(div);
+
+
+// Same kajta direct html dey kora jay 
+
+let div2 = document.createElement('div');
+div2.innerHTML = `
+<h5>This is heading 5</h5>
+<ul>
+    <li> <a>2nd navigation</a> </li>
+</ul>
+`
+mainSection.appendChild(div2);
 
 
 

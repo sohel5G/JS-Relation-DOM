@@ -43,8 +43,8 @@
 // console.log(  document.getElementById('main')   );
 // console.log(  document.getElementById('main').innerHTML   );
 // console.log(  document.getElementById('main').innerText   );
-console.log(  document.getElementById('main').childNodes   );
-console.log(  document.getElementById('main').parentNode   );
+// console.log(  document.getElementById('main').childNodes   );
+// console.log(  document.getElementById('main').parentNode   );
 // console.log(  document.getElementById('main').childNodes[1]   );
 // console.log(  document.getElementById('main').childNodes[1].childNodes   );
 
@@ -52,13 +52,13 @@ console.log(  document.getElementById('main').parentNode   );
 
 
 
-let li = document.createElement('li'); 
-li.innerText='Hello World';
-document.querySelector('#main ul').append(li)
+// let li = document.createElement('li'); 
+// li.innerText='Hello World';
+// document.querySelector('#main ul').append(li)
 
-let li2 = document.createElement('li');
-li2.innerText = 'Hello World 2';
-document.querySelector('#main ul').append(li2);
+// let li2 = document.createElement('li');
+// li2.innerText = 'Hello World 2';
+// document.querySelector('#main ul').append(li2);
 
 
 
