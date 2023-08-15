@@ -4,8 +4,8 @@ console.log( document.body );
 document.getElementById();
 document.getElementByClassName()
 
-document.querySelector()
-document.querySelectorAll()
+document.querySelector(#main ul)
+document.querySelectorAll( .css-class )
 
 li.innerText
 li.innerHTML
@@ -13,6 +13,16 @@ li.getAttribute('id')
 li.setAttribute('title', 'Hello World')
 
 document.getElementsByClassName('lies')[0].innerHTML = '<h1>Hello this text by JavaScript</h1>'
+
+li.classList.add('new-class-name-here')
+li.classList.remove('class-name-here')
+
+document.getElementById('main').childNodes[1].childNodes
+document.getElementById('main').childNodes[1]
+document.getElementById('main').childNodes[1].nextSibling
+document.getElementById('main').parentNode
+
+
 
 
 
